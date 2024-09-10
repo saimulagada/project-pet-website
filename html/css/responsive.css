@@ -1,0 +1,432 @@
+@media screen and (max-width:1199px){
+.container{
+  width:980px;
+}
+.logo img{
+  max-width:100%;
+}
+.header_content nav ul li a {
+   
+    font-size: 14px;
+}
+.header_content {
+   
+    width: 30%;
+}
+.header_content input {
+    width: 122px;
+}
+.header_content .fa {
+    
+    padding: 13px 10px 17px;
+}
+.banner_content h1 {
+    font-size: 51px;
+}
+.banner_content p {
+    font-size: 25px;
+}
+.main {
+    padding: 100px 0;
+}
+.main_content h2 {
+    font-size: 45px;
+}
+.main_content p {
+    font-size: 27px;
+}
+.main_content iframe {
+    width: 450px;
+    height: 260px;
+    margin-left: 45px
+    z-index:16;
+    position:absolute;
+    margin-left:40px;
+}
+.two {
+    width: 130px;
+    height: 130px;
+    background-color: #fcc302;
+    position: absolute;
+    top: 255px;
+    left: 510px;
+    z-index:3;
+}
+.aside_content iframe {
+    width: 420px;
+    height: 260px;
+    z-index:3;
+    position:absolute;
+
+}
+.aside_content h2 {
+    font-size: 45px;
+}
+.aside_content p {
+    font-size: 27px;
+}
+.aside_content .four {
+    width: 130px;
+    height: 130px;
+    background-color: #fcc302;
+    position: absolute;
+    z-index: 2;
+    top: 286px;
+    left: 313px;
+}
+section p{
+    font-size: 14px;
+}
+ .vet .three {
+   
+    padding-left: 230px;
+    padding-right: 230px;
+}
+.animals {
+    padding: 60px 0;
+}
+.animals .five {
+    
+    font-size: 15px;
+}
+.animals_content {
+    float: left;
+    width: 29%;
+}
+.animals_content h3 {
+    font-size: 24px;
+}
+.animals_content p {
+    font-family: 'PoppinsReg';
+    font-size: 15px;
+}
+.footer_content {
+    
+    width: 30%;
+}
+.footer_content p {
+    
+    font-size: 13px;
+}
+.footer_content input {
+    width: 196px;
+}
+.social i {
+   
+    margin-left: 7px;
+}
+}
+@media screen and (max-width:979px){
+ .container{
+   width:750px;
+}
+.logo img {
+    max-width: 100%;
+}
+header{
+  position:relative;
+}
+.header_content{
+  width:30%;
+}
+.header_content nav ul li a {
+    font-size: 8px;
+}
+.header_content .fa {
+    padding: 13px 10px 17px;
+    top: 31px;
+    right: 54px;
+    background:none;
+    position:absolute;
+   
+}
+.banner_content h1 {
+    font-size: 37px;
+}
+.banner_content p {
+    font-size: 18px;
+}
+.banner {
+    
+    padding-top: 60px;
+    padding-bottom: 610px;
+}
+.main_content h2 {
+    font-size: 33px;
+}
+.main_content p {
+    font-size: 19px;
+}
+.main_content iframe {
+    width: 320px;
+    height: 260px;
+    z-index:16;
+    position: absolute;
+    margin-left: 40px;
+}
+.two {
+   
+    top: 255px;
+    left: 387px;
+    z-index: 3;
+}
+.article_content {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+.article .three {
+    font-size: 15px;
+}
+.article_content h4 {
+    font-size: 24px;
+}
+.article_content p {
+    font-size: 12px;
+}
+.aside_content iframe {
+    width: 310px;
+}
+.aside_content h2 {
+    font-size: 33px;
+}
+.aside_content p {
+    font-size: 19px;
+    padding-bottom: 49px;
+}
+.aside_content .four {
+    
+    top: 287px;
+    left: 217px;
+}
+section p{
+padding: 0px 202px 30px;
+}
+section {
+    padding: 40px 0 70px 0;
+}
+.vet .three {
+    padding-left: 125px;
+    padding-right: 125px;
+}
+.vet_content h4 {
+    font-size: 25px;
+}
+.vet_content p {
+    font-size: 17px;
+}
+.vet_content .fa {
+    font-size: 15px;
+    padding: 6px;
+}
+.vet {
+    
+    padding: 80px 0;
+}
+.medicines {
+    padding: 80px 0;
+}
+.medicines_content .fa {
+    font-size: 80px;
+  
+}
+.medicines_content h6 {
+    font-size: 25px;
+}
+.medicines_content p {
+    font-size: 25px;
+}
+.animals {
+    padding: 50px 0;
+}
+.animals .five {
+    padding: 20px 191px 30px;
+}
+.animals_content {
+   
+    margin-right: 31px;
+}
+.animals_content h3 {
+    font-size: 17px;
+}
+.animals_content a {
+    font-size: 15px;
+}
+.animals_content p {
+    font-size: 11px;
+}
+.footer_content h2 {
+   
+    font-size: 30px;
+}
+.footer_content p {
+    font-size: 10px;
+}
+.footer_content .fa-telegram {
+    font-size: 20px;
+    background-color: #00bec9;
+    color: #fff;
+    padding: 29px 14px 32px;
+}
+.footer_content {
+    width: 27%;
+    margin-right: 45px;
+}
+.footer_content input {
+    width: 146px;
+}
+}
+@media screen and (max-width:767px){
+   .container{
+     width:96%;
+}
+header {
+    
+    text-align: center;
+}
+.header_content {
+   
+    float: none;
+    width: 100%;
+}
+.header_content nav ul li {
+    
+    padding-bottom: 20px;
+}
+.header_content input{
+  margin-left:0px;
+  width:200px;
+}
+.header_content .fa {
+ 
+    top: 149px;
+    right: 60px;
+
+}
+.banner_content{
+  float:none;
+  width:100%;
+}
+.banner_content h1 {
+    font-size: 32px;
+}
+.banner {
+   
+    padding-bottom: 100px;
+}
+.main_content{
+  float:none;
+  width:100%;
+}
+.two{
+  display:none;
+}
+.main_content h2 {
+    font-size: 28px;
+}
+.main_content p {
+    font-size: 16px;
+}
+.main_content iframe {
+    
+    margin: 30px 0;
+}
+.article_content{
+  float:none;
+  width:100%;
+  margin-left:0;
+}
+.main {
+   padding: 50px 0;
+    padding-bottom: 320px;
+   
+}
+.article .three{
+  padding:0;
+ padding-bottom: 20px;
+}
+.article_content h4{
+  text-align:left;
+}
+.article_content p {
+    padding-bottom: 15px;
+    text-align:left;
+}
+.article {
+    padding: 70px 0 60px 0;
+}
+.aside_content{
+   float:none;
+   width:100%;
+}
+.aside_content .four{
+  width:0;
+  height:0;
+}
+.aside_content:last-child{
+   margin-top:286px;
+}
+.aside_content h2 {
+    font-size: 28px;
+}
+.aside_content p {
+    font-size: 16px;
+}
+aside {
+    padding: 60px 0;
+}
+section p {
+    padding: 0px 0px 30px;
+}
+.section_content{
+  float:none;
+  width:100%;
+  margin-bottom: 25px;
+}
+.vet {
+    padding: 70px 0;
+}
+ .vet h3 {
+    font-size: 33px;
+}
+.vet .three {
+    
+    font-size: 13px;
+    padding: 0 0 15px 0;
+}
+.vet_content{
+   float:none;
+   width:100%;
+   margin-bottom: 15px;
+}
+.medicines{
+   padding: 70px 0;
+}
+.medicines_content{
+   float:none;
+   width:100%;
+   margin-bottom: 15px;
+}
+.animals .five {
+  
+    padding: 0 0 15px 0;
+}
+.animals_content{
+    float:none;
+   width:100%;
+   margin-bottom: 15px;
+   
+}
+  footer{
+   text-align:center;
+   padding: 70px 0;
+}
+.footer_content{
+  float:none;
+   width:100%;
+  margin-top:15px;
+}
+.social{
+  text-align:center;
+}
+}

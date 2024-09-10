@@ -1,0 +1,470 @@
+@font-face {
+    font-family: 'PoppinsMed';
+    src: url('../fonts/poppins medium/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/poppins medium/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PoppinsReg';
+    src: url('../fonts/poppinsregular/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/poppinsregular/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PoppinsSemi';
+    src: url('../fonts/poppinssemibold/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/poppinssemibold/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('../fonts/poppinsbold/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/poppinsbold/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+  width:1165px;
+  margin:0 auto;
+}
+.fix::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+header{
+  background-color:#daac00;
+  padding:30px 0;
+}
+.header_content{
+  float:left;
+  width:33%;
+}
+.logo img{
+  max-width:100%;
+}
+.header_content nav{
+}
+.header_content nav ul{
+  list-style-type:none;
+}
+.header_content nav ul li{
+  display:inline-block;
+  margin-left:20px;
+  padding-top:10px;
+}
+.header_content nav ul li a{
+  text-decoration:none;
+  font-size:20px;
+  color:#fff;
+  font-family: 'PoppinsMed';
+}
+.header_content input{
+  width:200px;
+  height:50px;
+  background-color:#fcc302;
+  padding-left:10px;
+  border:none;
+  margin-left:129px;
+  
+}
+.header_content input::placeholder{
+  color:#fff;
+  font-family: 'PoppinsReg';
+  
+}
+.header_content .fa{
+  font-size:20px;
+   color:#fff;
+  background-color:#00bec9;
+  padding:14px 16px;
+  padding-bottom:17px;
+  cursor:pointer;
+}
+.banner{
+  background-image:url("../images/banner.png");
+  
+  background-size:cover;
+  padding-top: 90px;
+  padding-bottom: 635px;
+}
+.banner_content{
+  float:left;
+  width:50%;
+}
+.banner_content h1{
+  font-size:56px;
+   font-family: 'PoppinsSemi';
+   color:#fff;
+}
+.banner_content p{
+  font-size:36px;
+   font-family: 'PoppinsReg';
+  color:#fff;
+  padding:10px 0;
+  padding-bottom:40px;
+
+ }
+.banner_content a{
+  text-decoration:none;
+  font-size:15px;
+  font-family: 'PoppinsSemi';
+  color:#fff;
+  padding:10px 20px;
+  border-radius:5px;
+  background-color:#00bec9;
+}
+.banner_content .one{
+  background:transparent;
+  border:1px solid #fff;
+  margin-left:10px;
+}
+.banner_content img{
+   max-width:100%;
+}
+.main{
+  padding:130px 0;
+  position:relative;
+}
+.main_content{
+  float:left;
+  width:50%;
+}
+.main_content iframe{
+ z-index:3;
+}
+.main_content h2{
+  font-size:50px;
+   font-family: 'PoppinsSemi';
+  color:#313243;
+}
+.main_content p{
+  font-size:30px;
+  padding:20px 0;
+   font-family: 'PoppinsReg';
+   color:#313243;
+}
+.two {
+    width: 200px;
+    height: 200px;
+    background-color: #fcc302;
+    position: absolute;
+    z-index: 16;
+    top: 339px;
+    left: 654px;
+    opacity: 0.8;
+}
+.main_content a{
+ text-decoration:none;
+ background-color:#fcc302;
+ color:#fff;
+ border-radius:5px;
+ 
+ padding:10px 20px;
+}
+.article{
+   padding:80px 0 70px 0;
+   background-color:#fcc302;
+}
+.article h3{
+ font-size:40px;
+ color:#ffffff;
+  font-family: 'PoppinsBold';
+  text-align:center;
+ 
+}
+.article .three{
+ font-size:30px;
+color:#ffffff;
+ font-family: 'PoppinsReg';
+ text-align:center;
+ padding:15px 181px;
+ padding-bottom:30px;
+}
+.article_content{
+  float:left;
+  width:33%;
+}
+.article_content img{
+  max-width:100%;
+}
+.article_content h4{
+  font-size:30px;
+   font-family: 'PoppinsSemi';
+  padding:20px 0;
+  text-align:center;
+  color:#ffffff;
+  
+}
+.article_content p{
+  font-size:20px;
+   font-family: 'PoppinsReg';
+  text-align:center;
+   color:#ffffff;
+  
+}
+aside{
+  padding:130px 0;
+  position:relative;
+}
+.aside_content{
+  float:left;
+  width:50%;
+}
+.aside_content h2{
+   font-size:50px;
+   font-family: 'PoppinsSemi';
+  color:#313243;
+}
+.aside_content p{
+  font-size:30px;
+  padding:20px 0;
+   font-family: 'PoppinsReg';
+   color:#313243;
+}
+.aside_content a{
+  text-decoration:none;
+ background-color:#fcc302;
+ color:#fff;
+ border-radius:5px;
+ 
+ padding:10px 20px;
+   
+}
+.aside_content .four{
+    width:200px;
+    height:200px;
+    background-color: #fcc302;
+    position: absolute;
+    z-index: 16;
+    top: 296px;
+    left: 394px;
+    opacity: 0.8;
+}
+section{
+   padding:80px 0 70px 0;
+   background-color:#fcc302;
+   text-align:center;
+}
+section h3,.vet h3{
+  font-size:40px;
+ color:#ffffff;
+  font-family: 'PoppinsBold';
+  text-align:center;
+}
+section p,.vet .three{
+  font-size:20px;
+   font-family: 'PoppinsReg';
+  text-align:center;
+   color:#ffffff;
+ padding: 0px 323px 30px 323px;
+}
+.section_content{
+ float:left;
+  width:33%;
+}
+.section_content img{
+  max-width:100%;
+}
+.section_content h4{
+ font-size:30px;
+   font-family: 'PoppinsSemi';
+  padding:20px 0;
+ 
+  color:#ffffff;
+  }
+.section_content a{
+  text-decoration:none;
+  background-color:#00bec9;
+  color:#fff;
+  border-radius:25px;
+   font-family: 'PoppinsSemi';
+ padding:10px 20px;
+
+ 
+}
+.vet{
+  text-align:center;
+  padding:100px 0;
+}
+.vet h3,.vet .three{
+  color:#313243;
+}
+.vet_content{
+  float:left;
+  width:33%;
+}
+.vet_content img{
+  max-width:100%;
+}
+.vet_content h4{
+   font-size:30px;
+   font-family: 'PoppinsSemi';
+  padding-top:10px;
+ 
+  color:#313243;
+}
+.vet_content p{
+  font-size:20px;
+   font-family: 'PoppinsReg';
+   color:#7c7d85;
+   padding:8px 0 15px 0;
+}
+.vet_content .fa{
+  font-size:20px;
+  background-color:#daac00;
+  color:#fff;
+  border-radius:50%;
+  padding:10px;
+  margin-right:10px;
+  cursor:pointer;
+}
+.medicines{
+  background-color:#f3c321;
+  text-align:center;
+  padding:130px 0;
+}
+.medicines_content{
+  float:left;
+  width:33%;
+}
+.medicines_content .fa{
+  font-size:90px;
+  color:#fff;
+  
+}
+.medicines_content h6{
+  font-size:30px;
+  font-family: 'PoppinsMed';
+  color:#fff;
+  padding-top:30px;
+  padding-bottom:15px;
+}
+.medicines_content p{
+font-size:30px;
+   font-family: 'PoppinsBold';
+  color:#fff;
+}
+.animals{
+  padding:100px 0;
+  
+}
+.animals h2{
+   font-family: 'PoppinsSemi';
+   font-size:35px;
+   color:#313243;
+   text-align:center;
+}
+.animals .five{
+  font-family: 'PoppinsReg';
+  font-size:20px;
+  color:#313243;
+  text-align:center;
+padding: 20px 315px 30px;
+}
+.animals_content{
+  float: left;
+    width: 30%;
+    border: 1px solid #d6d6d6;
+    padding: 10px;
+    margin-right: 38px;
+}
+.animals_content img{
+  max-width:100%;
+}
+.animals_content h3{
+  font-size:30px;
+   font-family: 'PoppinsSemi';
+  color:#313243;
+  
+}
+.animals_content a{
+  text-decoration:none;
+  font-size:20px;
+  font-family: 'PoppinsReg';
+  color:#00bec9;
+  padding:10px 0 15px 0;
+}
+.animals_content p{
+   font-family: 'PoppinsReg';
+   font-size:20px;
+   color:#313243;
+  padding:10px 0;
+  
+}
+footer{
+ background-color:#343434;
+ padding:100px 0;
+}
+.footer_content{
+   float:left;
+   width:30%;
+  
+}
+.footer_content h2{
+   font-family: 'PoppinsSemi';
+   font-size:35px;
+   color:#fff;
+   padding-bottom:5px;
+  
+}
+.footer_content a{
+   text-decoration:none;
+   display:block;
+   padding:7px 0;
+    font-family: 'PoppinsReg';
+   color:#fff;
+   }
+.footer_content p{
+    font-family: 'PoppinsReg';
+    font-size:18px;
+    color:#fff;
+    padding:10px 0 20px 0;
+   
+}
+.footer_content input{
+  width:250px;
+  height:80px;
+  background-color:#daac00;
+  border:none;
+}
+.footer_content .fa-telegram{
+  font-size:20px;
+  background-color:#00bec9;
+  color:#fff;
+ padding: 29px 39px 32px;
+  cursor:pointer;
+}
+.social{
+ padding-top:30px;
+ text-align:right;
+}
+.social i{
+  font-size:20px;
+  margin-left:10px;
+  background-color:#fff;
+  color:#000;
+  border-radius:50%;
+  padding:8px;
+  cursor:pointer;
+}
+  
